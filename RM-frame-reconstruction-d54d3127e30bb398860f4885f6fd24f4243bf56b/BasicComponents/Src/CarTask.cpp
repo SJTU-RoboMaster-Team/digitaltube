@@ -70,7 +70,7 @@ void Car::Reset(void) {
     CAN::can1.Reset(CAN_TYPE_1, 1, 1, 0);
     Remote::remote.Reset();
     IMU::BSP_IMU.Reset();
-    MX_IWDG_Init();
+    //MX_IWDG_Init();
     Additional::additional.Reset();
 //    AutoAim::autoAim.Reset();
 //    InitJudgeUart();

@@ -133,6 +133,7 @@ int main(void) {
     MX_UART5_Init();
 
     /* USER CODE BEGIN 2 */
+
     ENABLE_DC24V_2();
     ENABLE_DC24V_3();
     ENABLE_DC24V_4();
@@ -151,14 +152,18 @@ int main(void) {
     HAL_NVIC_EnableIRQ(DMA2_Stream2_IRQn);
     HAL_NVIC_EnableIRQ(TIM6_DAC_IRQn);
     HAL_NVIC_EnableIRQ(TIM7_IRQn);
+
+    DigitalTube::tube.ShowNumber(0);
+
     /* USER CODE END 2 */
 
     /* Infinite loop */
     /* USER CODE BEGIN WHILE */
     while (1) {
+
         /* USER CODE END WHILE */
 
-        DigitalTube::tube.ShowNumber(7);
+
         /* USER CODE BEGIN 3 */
     }
     /* USER CODE END 3 */

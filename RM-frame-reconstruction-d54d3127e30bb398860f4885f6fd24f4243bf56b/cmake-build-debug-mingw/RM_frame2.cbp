@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw"/>
+				<Option working_dir="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="F:/rm_stm32/confi/MinGW_w64/mingw32/bin/mingw32-make.exe -f &quot;F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="F:/rm_stm32/confi/MinGW_w64/mingw32/bin/mingw32-make.exe -f &quot;F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/rm_stm32/confi/MinGW_w64/mingw32/bin/mingw32-make.exe -f &quot;F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/rm_stm32/confi/MinGW_w64/mingw32/bin/mingw32-make.exe -f &quot;F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="RM_frame2.elf">
-				<Option output="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/RM_frame2.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw"/>
+				<Option output="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/RM_frame2.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -28,37 +28,37 @@
 					<Add option="-D__packed=__attribute__((__packed__))"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F427xx"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Inc"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BoardConfiguration"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/UpperTasks/Inc"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/AdditionalFunctions/Inc"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BSP/Inc"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Additional/Inc"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Middleware/Inc"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Multimedia/Inc"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Lib"/>
-					<Add directory="c:\users\92304\documents\study\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"/>
-					<Add directory="c:\users\92304\documents\study\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"/>
-					<Add directory="c:\users\92304\documents\study\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"/>
-					<Add directory="c:\users\92304\documents\study\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/include"/>
-					<Add directory="c:\users\92304\documents\study\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed"/>
-					<Add directory="c:\users\92304\documents\study\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Inc"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BoardConfiguration"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/UpperTasks/Inc"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/AdditionalFunctions/Inc"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BSP/Inc"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Additional/Inc"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Middleware/Inc"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Multimedia/Inc"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Lib"/>
+					<Add directory="f:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"/>
+					<Add directory="f:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"/>
+					<Add directory="f:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"/>
+					<Add directory="f:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/include"/>
+					<Add directory="f:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed"/>
+					<Add directory="f:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 RM_frame2.elf"/>
-					<CompileFile command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="F:/rm_stm32/confi/MinGW_w64/mingw32/bin/mingw32-make.exe -f &quot;F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 RM_frame2.elf"/>
+					<CompileFile command="F:/rm_stm32/confi/MinGW_w64/mingw32/bin/mingw32-make.exe -f &quot;F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/rm_stm32/confi/MinGW_w64/mingw32/bin/mingw32-make.exe -f &quot;F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/rm_stm32/confi/MinGW_w64/mingw32/bin/mingw32-make.exe -f &quot;F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="RM_frame2.elf/fast">
-				<Option output="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/RM_frame2.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw"/>
+				<Option output="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/RM_frame2.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,455 +67,461 @@
 					<Add option="-D__packed=__attribute__((__packed__))"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F427xx"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Inc"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BoardConfiguration"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/UpperTasks/Inc"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/AdditionalFunctions/Inc"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BSP/Inc"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Additional/Inc"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Middleware/Inc"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Multimedia/Inc"/>
-					<Add directory="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Lib"/>
-					<Add directory="c:\users\92304\documents\study\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"/>
-					<Add directory="c:\users\92304\documents\study\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"/>
-					<Add directory="c:\users\92304\documents\study\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"/>
-					<Add directory="c:\users\92304\documents\study\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/include"/>
-					<Add directory="c:\users\92304\documents\study\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed"/>
-					<Add directory="c:\users\92304\documents\study\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Inc"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BoardConfiguration"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/UpperTasks/Inc"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/AdditionalFunctions/Inc"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BSP/Inc"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Additional/Inc"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Middleware/Inc"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Multimedia/Inc"/>
+					<Add directory="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Lib"/>
+					<Add directory="f:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"/>
+					<Add directory="f:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"/>
+					<Add directory="f:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"/>
+					<Add directory="f:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/include"/>
+					<Add directory="f:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed"/>
+					<Add directory="f:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 RM_frame2.elf/fast"/>
-					<CompileFile command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="F:/rm_stm32/confi/MinGW_w64/mingw32/bin/mingw32-make.exe -f &quot;F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 RM_frame2.elf/fast"/>
+					<CompileFile command="F:/rm_stm32/confi/MinGW_w64/mingw32/bin/mingw32-make.exe -f &quot;F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/rm_stm32/confi/MinGW_w64/mingw32/bin/mingw32-make.exe -f &quot;F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/rm_stm32/confi/MinGW_w64/mingw32/bin/mingw32-make.exe -f &quot;F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw"/>
+				<Option working_dir="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="F:/rm_stm32/confi/MinGW_w64/mingw32/bin/mingw32-make.exe -f &quot;F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="F:/rm_stm32/confi/MinGW_w64/mingw32/bin/mingw32-make.exe -f &quot;F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/rm_stm32/confi/MinGW_w64/mingw32/bin/mingw32-make.exe -f &quot;F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/rm_stm32/confi/MinGW_w64/mingw32/bin/mingw32-make.exe -f &quot;F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw"/>
+				<Option working_dir="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="F:/rm_stm32/confi/MinGW_w64/mingw32/bin/mingw32-make.exe -f &quot;F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="F:/rm_stm32/confi/MinGW_w64/mingw32/bin/mingw32-make.exe -f &quot;F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/rm_stm32/confi/MinGW_w64/mingw32/bin/mingw32-make.exe -f &quot;F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/rm_stm32/confi/MinGW_w64/mingw32/bin/mingw32-make.exe -f &quot;F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Additional/Inc/Additional.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Additional/Inc/Additional.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Additional/Src/Additional.cpp">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Additional/Src/Additional.cpp">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/AdditionalFunctions/Inc/CapTask.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/AdditionalFunctions/Inc/CapTask.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/AdditionalFunctions/Src/CapTask.cpp">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/AdditionalFunctions/Inc/DigitalTubeTask.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BSP/Inc/BSP_INC.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/AdditionalFunctions/Src/CapTask.cpp">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BSP/Inc/KeyMonitor.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/AdditionalFunctions/Src/DigitalTubeTask.cpp">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BSP/Inc/LED.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BSP/Inc/BSP_INC.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BSP/Inc/ist8310_reg.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BSP/Inc/KeyMonitor.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BSP/Inc/mpu6500_reg.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BSP/Inc/LED.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BSP/Inc/mytype.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BSP/Inc/ist8310_reg.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BSP/Src/KeyMonitor.cpp">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BSP/Inc/mpu6500_reg.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BSP/Src/LED.cpp">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BSP/Inc/mytype.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/AutoAimTask.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BSP/Src/KeyMonitor.cpp">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/CANTask.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BSP/Src/LED.cpp">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/CarTask.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/AutoAimTask.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/ChassisTask.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/CANTask.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/GateTask.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/CarTask.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/GimbalTask.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/ChassisTask.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/IMUTask.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/GateTask.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/JudgeTask.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/GimbalTask.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/MotorTask.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/IMUTask.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/PIDTask.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/JudgeTask.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/RemoteTask.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/MotorTask.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/ShootTask.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/PIDTask.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/drivers_ramp.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/RemoteTask.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/offical_Judge_Handler.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/ShootTask.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/pid_regulator.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/drivers_ramp.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/AutoAimTask.cpp">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/offical_Judge_Handler.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/CANTask.cpp">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Inc/pid_regulator.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/CarTask.cpp">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/AutoAimTask.cpp">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/ChassisTask.cpp">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/CANTask.cpp">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/GateTask.cpp">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/CarTask.cpp">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/GimbalTask.cpp">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/ChassisTask.cpp">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/IMUTask.cpp">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/GateTask.cpp">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/JudgeTask.cpp">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/GimbalTask.cpp">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/KeyMouseControlTask.cpp">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/IMUTask.cpp">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/LeverControlTask.cpp">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/JudgeTask.cpp">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/MotorTask.cpp">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/KeyMouseControlTask.cpp">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/PIDTask.cpp">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/LeverControlTask.cpp">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/RemoteTask.cpp">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/MotorTask.cpp">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/ShootTask.cpp">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/PIDTask.cpp">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/RemoteTask.cpp">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/BasicComponents/Src/ShootTask.cpp">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/arm_common_tables.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/arm_const_structs.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/arm_math.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/arm_common_tables.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/cmsis_armcc.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/arm_const_structs.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/cmsis_armcc_V6.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/arm_math.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/cmsis_gcc.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/cmsis_armcc.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/core_cm0.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/cmsis_armcc_V6.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/core_cm0plus.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/cmsis_gcc.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/core_cm3.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/core_cm0.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/core_cm4.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/core_cm0plus.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/core_cm7.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/core_cm3.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/core_cmFunc.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/core_cm4.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/core_cmInstr.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/core_cm7.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/core_cmSimd.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/core_cmFunc.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/core_sc000.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/core_cmInstr.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/core_sc300.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/core_cmSimd.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/core_sc000.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/CMSIS/Include/core_sc300.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_iwdg.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_iwdg.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Middleware/Inc/SoftTimer.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Middleware/Src/SoftTimer.cpp">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Multimedia/Inc/DanceWithBGM.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Middleware/Inc/SoftTimer.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Multimedia/Inc/MusicAutoPlay.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Middleware/Src/SoftTimer.cpp">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Multimedia/Lib/Lib_dances.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Multimedia/Inc/DanceWithBGM.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Multimedia/Lib/Lib_songs.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Multimedia/Inc/MusicAutoPlay.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Multimedia/Src/DanceWithBGM.cpp">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Multimedia/Lib/Lib_dances.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Multimedia/Src/MusicAutoPlay.cpp">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Multimedia/Lib/Lib_songs.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/STM32F427IIHx_FLASH.ld">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Multimedia/Src/DanceWithBGM.cpp">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/adc.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Multimedia/Src/MusicAutoPlay.cpp">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/can.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/STM32F427IIHx_FLASH.ld">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/dac.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/adc.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/dma.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/can.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/gpio.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/dac.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/iwdg.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/dma.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/main.cpp">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/gpio.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/spi.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/iwdg.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/stm32f4xx_hal_msp.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/main.cpp">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/stm32f4xx_it.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/spi.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/syscalls.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/stm32f4xx_hal_msp.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/system_stm32f4xx.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/stm32f4xx_it.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/tim.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/syscalls.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/usart.c">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/system_stm32f4xx.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/UpperTasks/Inc/CallbackAdministration.h">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/tim.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/UpperTasks/Src/CallbackAdministration.cpp">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/Src/usart.c">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/startup/startup_stm32f427xx.s">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/UpperTasks/Inc/CallbackAdministration.h">
 			<Option target="RM_frame2.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/92304/Documents/Study/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/CMakeLists.txt">
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/UpperTasks/Src/CallbackAdministration.cpp">
+			<Option target="RM_frame2.elf"/>
+		</Unit>
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/startup/startup_stm32f427xx.s">
+			<Option target="RM_frame2.elf"/>
+		</Unit>
+		<Unit filename="F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

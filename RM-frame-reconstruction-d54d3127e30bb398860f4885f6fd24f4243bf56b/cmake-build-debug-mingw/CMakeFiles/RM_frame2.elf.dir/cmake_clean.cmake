@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/RM_frame2.elf.dir/Additional/Src/Additional.cpp.obj"
   "CMakeFiles/RM_frame2.elf.dir/AdditionalFunctions/Src/CapTask.cpp.obj"
+  "CMakeFiles/RM_frame2.elf.dir/AdditionalFunctions/Src/DigitalTubeTask.cpp.obj"
   "CMakeFiles/RM_frame2.elf.dir/BSP/Src/KeyMonitor.cpp.obj"
   "CMakeFiles/RM_frame2.elf.dir/BSP/Src/LED.cpp.obj"
   "CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/AutoAimTask.cpp.obj"

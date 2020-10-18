@@ -60,6 +60,7 @@ void MX_TIM2_Init(void)
   TIM_MasterConfigTypeDef sMasterConfig;
   TIM_OC_InitTypeDef sConfigOC;
 
+
   htim2.Instance = TIM2;
   htim2.Init.Prescaler = 84-1;
   htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
