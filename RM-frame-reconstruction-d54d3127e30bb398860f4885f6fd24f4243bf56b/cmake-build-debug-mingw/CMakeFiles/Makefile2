@@ -43,10 +43,10 @@ RM = "D:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b
+CMAKE_SOURCE_DIR = F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw
+CMAKE_BINARY_DIR = F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -73,14 +73,14 @@ clean: CMakeFiles/RM_frame2.elf.dir/clean
 CMakeFiles/RM_frame2.elf.dir/all:
 	$(MAKE) -f CMakeFiles\RM_frame2.elf.dir\build.make CMakeFiles/RM_frame2.elf.dir/depend
 	$(MAKE) -f CMakeFiles\RM_frame2.elf.dir\build.make CMakeFiles/RM_frame2.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61 "Built target RM_frame2.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61 "Built target RM_frame2.elf"
 .PHONY : CMakeFiles/RM_frame2.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/RM_frame2.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles 61
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles 61
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/RM_frame2.elf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles 0
 .PHONY : CMakeFiles/RM_frame2.elf.dir/rule
 
 # Convenience name for target.

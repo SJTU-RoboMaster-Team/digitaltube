@@ -42,10 +42,10 @@ RM = "D:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b
+CMAKE_SOURCE_DIR = F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw
+CMAKE_BINARY_DIR = F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw
 
 # Include any dependencies generated for this target.
 include CMakeFiles/RM_frame2.elf.dir/depend.make
@@ -58,775 +58,775 @@ include CMakeFiles/RM_frame2.elf.dir/flags.make
 
 CMakeFiles/RM_frame2.elf.dir/Additional/Src/Additional.cpp.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Additional/Src/Additional.cpp.obj: ../Additional/Src/Additional.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RM_frame2.elf.dir/Additional/Src/Additional.cpp.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Additional\Src\Additional.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Additional\Src\Additional.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RM_frame2.elf.dir/Additional/Src/Additional.cpp.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Additional\Src\Additional.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Additional\Src\Additional.cpp
 
 CMakeFiles/RM_frame2.elf.dir/Additional/Src/Additional.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_frame2.elf.dir/Additional/Src/Additional.cpp.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Additional\Src\Additional.cpp > CMakeFiles\RM_frame2.elf.dir\Additional\Src\Additional.cpp.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Additional\Src\Additional.cpp > CMakeFiles\RM_frame2.elf.dir\Additional\Src\Additional.cpp.i
 
 CMakeFiles/RM_frame2.elf.dir/Additional/Src/Additional.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_frame2.elf.dir/Additional/Src/Additional.cpp.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Additional\Src\Additional.cpp -o CMakeFiles\RM_frame2.elf.dir\Additional\Src\Additional.cpp.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Additional\Src\Additional.cpp -o CMakeFiles\RM_frame2.elf.dir\Additional\Src\Additional.cpp.s
 
 CMakeFiles/RM_frame2.elf.dir/AdditionalFunctions/Src/CapTask.cpp.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/AdditionalFunctions/Src/CapTask.cpp.obj: ../AdditionalFunctions/Src/CapTask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RM_frame2.elf.dir/AdditionalFunctions/Src/CapTask.cpp.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\AdditionalFunctions\Src\CapTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\AdditionalFunctions\Src\CapTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RM_frame2.elf.dir/AdditionalFunctions/Src/CapTask.cpp.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\AdditionalFunctions\Src\CapTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\AdditionalFunctions\Src\CapTask.cpp
 
 CMakeFiles/RM_frame2.elf.dir/AdditionalFunctions/Src/CapTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_frame2.elf.dir/AdditionalFunctions/Src/CapTask.cpp.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\AdditionalFunctions\Src\CapTask.cpp > CMakeFiles\RM_frame2.elf.dir\AdditionalFunctions\Src\CapTask.cpp.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\AdditionalFunctions\Src\CapTask.cpp > CMakeFiles\RM_frame2.elf.dir\AdditionalFunctions\Src\CapTask.cpp.i
 
 CMakeFiles/RM_frame2.elf.dir/AdditionalFunctions/Src/CapTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_frame2.elf.dir/AdditionalFunctions/Src/CapTask.cpp.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\AdditionalFunctions\Src\CapTask.cpp -o CMakeFiles\RM_frame2.elf.dir\AdditionalFunctions\Src\CapTask.cpp.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\AdditionalFunctions\Src\CapTask.cpp -o CMakeFiles\RM_frame2.elf.dir\AdditionalFunctions\Src\CapTask.cpp.s
 
 CMakeFiles/RM_frame2.elf.dir/AdditionalFunctions/Src/DigitalTubeTask.cpp.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/AdditionalFunctions/Src/DigitalTubeTask.cpp.obj: ../AdditionalFunctions/Src/DigitalTubeTask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RM_frame2.elf.dir/AdditionalFunctions/Src/DigitalTubeTask.cpp.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\AdditionalFunctions\Src\DigitalTubeTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\AdditionalFunctions\Src\DigitalTubeTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RM_frame2.elf.dir/AdditionalFunctions/Src/DigitalTubeTask.cpp.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\AdditionalFunctions\Src\DigitalTubeTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\AdditionalFunctions\Src\DigitalTubeTask.cpp
 
 CMakeFiles/RM_frame2.elf.dir/AdditionalFunctions/Src/DigitalTubeTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_frame2.elf.dir/AdditionalFunctions/Src/DigitalTubeTask.cpp.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\AdditionalFunctions\Src\DigitalTubeTask.cpp > CMakeFiles\RM_frame2.elf.dir\AdditionalFunctions\Src\DigitalTubeTask.cpp.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\AdditionalFunctions\Src\DigitalTubeTask.cpp > CMakeFiles\RM_frame2.elf.dir\AdditionalFunctions\Src\DigitalTubeTask.cpp.i
 
 CMakeFiles/RM_frame2.elf.dir/AdditionalFunctions/Src/DigitalTubeTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_frame2.elf.dir/AdditionalFunctions/Src/DigitalTubeTask.cpp.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\AdditionalFunctions\Src\DigitalTubeTask.cpp -o CMakeFiles\RM_frame2.elf.dir\AdditionalFunctions\Src\DigitalTubeTask.cpp.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\AdditionalFunctions\Src\DigitalTubeTask.cpp -o CMakeFiles\RM_frame2.elf.dir\AdditionalFunctions\Src\DigitalTubeTask.cpp.s
 
 CMakeFiles/RM_frame2.elf.dir/BSP/Src/KeyMonitor.cpp.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/BSP/Src/KeyMonitor.cpp.obj: ../BSP/Src/KeyMonitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BSP/Src/KeyMonitor.cpp.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BSP\Src\KeyMonitor.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BSP\Src\KeyMonitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BSP/Src/KeyMonitor.cpp.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BSP\Src\KeyMonitor.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BSP\Src\KeyMonitor.cpp
 
 CMakeFiles/RM_frame2.elf.dir/BSP/Src/KeyMonitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_frame2.elf.dir/BSP/Src/KeyMonitor.cpp.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BSP\Src\KeyMonitor.cpp > CMakeFiles\RM_frame2.elf.dir\BSP\Src\KeyMonitor.cpp.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BSP\Src\KeyMonitor.cpp > CMakeFiles\RM_frame2.elf.dir\BSP\Src\KeyMonitor.cpp.i
 
 CMakeFiles/RM_frame2.elf.dir/BSP/Src/KeyMonitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_frame2.elf.dir/BSP/Src/KeyMonitor.cpp.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BSP\Src\KeyMonitor.cpp -o CMakeFiles\RM_frame2.elf.dir\BSP\Src\KeyMonitor.cpp.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BSP\Src\KeyMonitor.cpp -o CMakeFiles\RM_frame2.elf.dir\BSP\Src\KeyMonitor.cpp.s
 
 CMakeFiles/RM_frame2.elf.dir/BSP/Src/LED.cpp.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/BSP/Src/LED.cpp.obj: ../BSP/Src/LED.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BSP/Src/LED.cpp.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BSP\Src\LED.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BSP\Src\LED.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BSP/Src/LED.cpp.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BSP\Src\LED.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BSP\Src\LED.cpp
 
 CMakeFiles/RM_frame2.elf.dir/BSP/Src/LED.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_frame2.elf.dir/BSP/Src/LED.cpp.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BSP\Src\LED.cpp > CMakeFiles\RM_frame2.elf.dir\BSP\Src\LED.cpp.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BSP\Src\LED.cpp > CMakeFiles\RM_frame2.elf.dir\BSP\Src\LED.cpp.i
 
 CMakeFiles/RM_frame2.elf.dir/BSP/Src/LED.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_frame2.elf.dir/BSP/Src/LED.cpp.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BSP\Src\LED.cpp -o CMakeFiles\RM_frame2.elf.dir\BSP\Src\LED.cpp.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BSP\Src\LED.cpp -o CMakeFiles\RM_frame2.elf.dir\BSP\Src\LED.cpp.s
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/AutoAimTask.cpp.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/AutoAimTask.cpp.obj: ../BasicComponents/Src/AutoAimTask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/AutoAimTask.cpp.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\AutoAimTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\AutoAimTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/AutoAimTask.cpp.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\AutoAimTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\AutoAimTask.cpp
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/AutoAimTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/AutoAimTask.cpp.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\AutoAimTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\AutoAimTask.cpp.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\AutoAimTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\AutoAimTask.cpp.i
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/AutoAimTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/AutoAimTask.cpp.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\AutoAimTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\AutoAimTask.cpp.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\AutoAimTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\AutoAimTask.cpp.s
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/CANTask.cpp.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/CANTask.cpp.obj: ../BasicComponents/Src/CANTask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/CANTask.cpp.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\CANTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\CANTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/CANTask.cpp.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\CANTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\CANTask.cpp
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/CANTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/CANTask.cpp.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\CANTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\CANTask.cpp.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\CANTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\CANTask.cpp.i
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/CANTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/CANTask.cpp.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\CANTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\CANTask.cpp.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\CANTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\CANTask.cpp.s
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/CarTask.cpp.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/CarTask.cpp.obj: ../BasicComponents/Src/CarTask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/CarTask.cpp.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\CarTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\CarTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/CarTask.cpp.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\CarTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\CarTask.cpp
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/CarTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/CarTask.cpp.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\CarTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\CarTask.cpp.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\CarTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\CarTask.cpp.i
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/CarTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/CarTask.cpp.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\CarTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\CarTask.cpp.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\CarTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\CarTask.cpp.s
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/ChassisTask.cpp.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/ChassisTask.cpp.obj: ../BasicComponents/Src/ChassisTask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/ChassisTask.cpp.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\ChassisTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\ChassisTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/ChassisTask.cpp.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\ChassisTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\ChassisTask.cpp
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/ChassisTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/ChassisTask.cpp.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\ChassisTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\ChassisTask.cpp.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\ChassisTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\ChassisTask.cpp.i
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/ChassisTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/ChassisTask.cpp.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\ChassisTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\ChassisTask.cpp.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\ChassisTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\ChassisTask.cpp.s
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/GateTask.cpp.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/GateTask.cpp.obj: ../BasicComponents/Src/GateTask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/GateTask.cpp.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\GateTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\GateTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/GateTask.cpp.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\GateTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\GateTask.cpp
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/GateTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/GateTask.cpp.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\GateTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\GateTask.cpp.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\GateTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\GateTask.cpp.i
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/GateTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/GateTask.cpp.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\GateTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\GateTask.cpp.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\GateTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\GateTask.cpp.s
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/GimbalTask.cpp.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/GimbalTask.cpp.obj: ../BasicComponents/Src/GimbalTask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/GimbalTask.cpp.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\GimbalTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\GimbalTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/GimbalTask.cpp.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\GimbalTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\GimbalTask.cpp
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/GimbalTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/GimbalTask.cpp.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\GimbalTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\GimbalTask.cpp.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\GimbalTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\GimbalTask.cpp.i
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/GimbalTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/GimbalTask.cpp.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\GimbalTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\GimbalTask.cpp.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\GimbalTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\GimbalTask.cpp.s
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/IMUTask.cpp.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/IMUTask.cpp.obj: ../BasicComponents/Src/IMUTask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/IMUTask.cpp.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\IMUTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\IMUTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/IMUTask.cpp.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\IMUTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\IMUTask.cpp
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/IMUTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/IMUTask.cpp.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\IMUTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\IMUTask.cpp.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\IMUTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\IMUTask.cpp.i
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/IMUTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/IMUTask.cpp.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\IMUTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\IMUTask.cpp.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\IMUTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\IMUTask.cpp.s
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/JudgeTask.cpp.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/JudgeTask.cpp.obj: ../BasicComponents/Src/JudgeTask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/JudgeTask.cpp.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\JudgeTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\JudgeTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/JudgeTask.cpp.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\JudgeTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\JudgeTask.cpp
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/JudgeTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/JudgeTask.cpp.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\JudgeTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\JudgeTask.cpp.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\JudgeTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\JudgeTask.cpp.i
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/JudgeTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/JudgeTask.cpp.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\JudgeTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\JudgeTask.cpp.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\JudgeTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\JudgeTask.cpp.s
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/KeyMouseControlTask.cpp.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/KeyMouseControlTask.cpp.obj: ../BasicComponents/Src/KeyMouseControlTask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/KeyMouseControlTask.cpp.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\KeyMouseControlTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\KeyMouseControlTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/KeyMouseControlTask.cpp.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\KeyMouseControlTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\KeyMouseControlTask.cpp
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/KeyMouseControlTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/KeyMouseControlTask.cpp.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\KeyMouseControlTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\KeyMouseControlTask.cpp.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\KeyMouseControlTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\KeyMouseControlTask.cpp.i
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/KeyMouseControlTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/KeyMouseControlTask.cpp.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\KeyMouseControlTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\KeyMouseControlTask.cpp.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\KeyMouseControlTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\KeyMouseControlTask.cpp.s
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/LeverControlTask.cpp.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/LeverControlTask.cpp.obj: ../BasicComponents/Src/LeverControlTask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/LeverControlTask.cpp.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\LeverControlTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\LeverControlTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/LeverControlTask.cpp.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\LeverControlTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\LeverControlTask.cpp
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/LeverControlTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/LeverControlTask.cpp.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\LeverControlTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\LeverControlTask.cpp.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\LeverControlTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\LeverControlTask.cpp.i
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/LeverControlTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/LeverControlTask.cpp.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\LeverControlTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\LeverControlTask.cpp.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\LeverControlTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\LeverControlTask.cpp.s
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/MotorTask.cpp.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/MotorTask.cpp.obj: ../BasicComponents/Src/MotorTask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/MotorTask.cpp.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\MotorTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\MotorTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/MotorTask.cpp.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\MotorTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\MotorTask.cpp
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/MotorTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/MotorTask.cpp.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\MotorTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\MotorTask.cpp.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\MotorTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\MotorTask.cpp.i
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/MotorTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/MotorTask.cpp.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\MotorTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\MotorTask.cpp.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\MotorTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\MotorTask.cpp.s
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/PIDTask.cpp.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/PIDTask.cpp.obj: ../BasicComponents/Src/PIDTask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/PIDTask.cpp.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\PIDTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\PIDTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/PIDTask.cpp.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\PIDTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\PIDTask.cpp
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/PIDTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/PIDTask.cpp.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\PIDTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\PIDTask.cpp.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\PIDTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\PIDTask.cpp.i
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/PIDTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/PIDTask.cpp.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\PIDTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\PIDTask.cpp.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\PIDTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\PIDTask.cpp.s
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/RemoteTask.cpp.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/RemoteTask.cpp.obj: ../BasicComponents/Src/RemoteTask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/RemoteTask.cpp.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\RemoteTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\RemoteTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/RemoteTask.cpp.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\RemoteTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\RemoteTask.cpp
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/RemoteTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/RemoteTask.cpp.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\RemoteTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\RemoteTask.cpp.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\RemoteTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\RemoteTask.cpp.i
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/RemoteTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/RemoteTask.cpp.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\RemoteTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\RemoteTask.cpp.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\RemoteTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\RemoteTask.cpp.s
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/ShootTask.cpp.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/ShootTask.cpp.obj: ../BasicComponents/Src/ShootTask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/ShootTask.cpp.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\ShootTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\ShootTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/ShootTask.cpp.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\ShootTask.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\ShootTask.cpp
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/ShootTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/ShootTask.cpp.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\ShootTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\ShootTask.cpp.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\ShootTask.cpp > CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\ShootTask.cpp.i
 
 CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/ShootTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_frame2.elf.dir/BasicComponents/Src/ShootTask.cpp.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\ShootTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\ShootTask.cpp.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\BasicComponents\Src\ShootTask.cpp -o CMakeFiles\RM_frame2.elf.dir\BasicComponents\Src\ShootTask.cpp.s
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c > CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\RM_frame2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Middleware/Src/SoftTimer.cpp.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Middleware/Src/SoftTimer.cpp.obj: ../Middleware/Src/SoftTimer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/RM_frame2.elf.dir/Middleware/Src/SoftTimer.cpp.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Middleware\Src\SoftTimer.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Middleware\Src\SoftTimer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/RM_frame2.elf.dir/Middleware/Src/SoftTimer.cpp.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Middleware\Src\SoftTimer.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Middleware\Src\SoftTimer.cpp
 
 CMakeFiles/RM_frame2.elf.dir/Middleware/Src/SoftTimer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_frame2.elf.dir/Middleware/Src/SoftTimer.cpp.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Middleware\Src\SoftTimer.cpp > CMakeFiles\RM_frame2.elf.dir\Middleware\Src\SoftTimer.cpp.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Middleware\Src\SoftTimer.cpp > CMakeFiles\RM_frame2.elf.dir\Middleware\Src\SoftTimer.cpp.i
 
 CMakeFiles/RM_frame2.elf.dir/Middleware/Src/SoftTimer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_frame2.elf.dir/Middleware/Src/SoftTimer.cpp.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Middleware\Src\SoftTimer.cpp -o CMakeFiles\RM_frame2.elf.dir\Middleware\Src\SoftTimer.cpp.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Middleware\Src\SoftTimer.cpp -o CMakeFiles\RM_frame2.elf.dir\Middleware\Src\SoftTimer.cpp.s
 
 CMakeFiles/RM_frame2.elf.dir/Multimedia/Src/DanceWithBGM.cpp.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Multimedia/Src/DanceWithBGM.cpp.obj: ../Multimedia/Src/DanceWithBGM.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/RM_frame2.elf.dir/Multimedia/Src/DanceWithBGM.cpp.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Multimedia\Src\DanceWithBGM.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Multimedia\Src\DanceWithBGM.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/RM_frame2.elf.dir/Multimedia/Src/DanceWithBGM.cpp.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Multimedia\Src\DanceWithBGM.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Multimedia\Src\DanceWithBGM.cpp
 
 CMakeFiles/RM_frame2.elf.dir/Multimedia/Src/DanceWithBGM.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_frame2.elf.dir/Multimedia/Src/DanceWithBGM.cpp.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Multimedia\Src\DanceWithBGM.cpp > CMakeFiles\RM_frame2.elf.dir\Multimedia\Src\DanceWithBGM.cpp.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Multimedia\Src\DanceWithBGM.cpp > CMakeFiles\RM_frame2.elf.dir\Multimedia\Src\DanceWithBGM.cpp.i
 
 CMakeFiles/RM_frame2.elf.dir/Multimedia/Src/DanceWithBGM.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_frame2.elf.dir/Multimedia/Src/DanceWithBGM.cpp.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Multimedia\Src\DanceWithBGM.cpp -o CMakeFiles\RM_frame2.elf.dir\Multimedia\Src\DanceWithBGM.cpp.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Multimedia\Src\DanceWithBGM.cpp -o CMakeFiles\RM_frame2.elf.dir\Multimedia\Src\DanceWithBGM.cpp.s
 
 CMakeFiles/RM_frame2.elf.dir/Multimedia/Src/MusicAutoPlay.cpp.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Multimedia/Src/MusicAutoPlay.cpp.obj: ../Multimedia/Src/MusicAutoPlay.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/RM_frame2.elf.dir/Multimedia/Src/MusicAutoPlay.cpp.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Multimedia\Src\MusicAutoPlay.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Multimedia\Src\MusicAutoPlay.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/RM_frame2.elf.dir/Multimedia/Src/MusicAutoPlay.cpp.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Multimedia\Src\MusicAutoPlay.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Multimedia\Src\MusicAutoPlay.cpp
 
 CMakeFiles/RM_frame2.elf.dir/Multimedia/Src/MusicAutoPlay.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_frame2.elf.dir/Multimedia/Src/MusicAutoPlay.cpp.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Multimedia\Src\MusicAutoPlay.cpp > CMakeFiles\RM_frame2.elf.dir\Multimedia\Src\MusicAutoPlay.cpp.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Multimedia\Src\MusicAutoPlay.cpp > CMakeFiles\RM_frame2.elf.dir\Multimedia\Src\MusicAutoPlay.cpp.i
 
 CMakeFiles/RM_frame2.elf.dir/Multimedia/Src/MusicAutoPlay.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_frame2.elf.dir/Multimedia/Src/MusicAutoPlay.cpp.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Multimedia\Src\MusicAutoPlay.cpp -o CMakeFiles\RM_frame2.elf.dir\Multimedia\Src\MusicAutoPlay.cpp.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Multimedia\Src\MusicAutoPlay.cpp -o CMakeFiles\RM_frame2.elf.dir\Multimedia\Src\MusicAutoPlay.cpp.s
 
 CMakeFiles/RM_frame2.elf.dir/Src/adc.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Src/adc.c.obj: ../Src/adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/adc.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\adc.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/adc.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\adc.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\adc.c
 
 CMakeFiles/RM_frame2.elf.dir/Src/adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Src/adc.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\adc.c > CMakeFiles\RM_frame2.elf.dir\Src\adc.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\adc.c > CMakeFiles\RM_frame2.elf.dir\Src\adc.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Src/adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Src/adc.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\adc.c -o CMakeFiles\RM_frame2.elf.dir\Src\adc.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\adc.c -o CMakeFiles\RM_frame2.elf.dir\Src\adc.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Src/can.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Src/can.c.obj: ../Src/can.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/can.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\can.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\can.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/can.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\can.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\can.c
 
 CMakeFiles/RM_frame2.elf.dir/Src/can.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Src/can.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\can.c > CMakeFiles\RM_frame2.elf.dir\Src\can.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\can.c > CMakeFiles\RM_frame2.elf.dir\Src\can.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Src/can.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Src/can.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\can.c -o CMakeFiles\RM_frame2.elf.dir\Src\can.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\can.c -o CMakeFiles\RM_frame2.elf.dir\Src\can.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Src/dac.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Src/dac.c.obj: ../Src/dac.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/dac.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\dac.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\dac.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/dac.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\dac.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\dac.c
 
 CMakeFiles/RM_frame2.elf.dir/Src/dac.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Src/dac.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\dac.c > CMakeFiles\RM_frame2.elf.dir\Src\dac.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\dac.c > CMakeFiles\RM_frame2.elf.dir\Src\dac.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Src/dac.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Src/dac.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\dac.c -o CMakeFiles\RM_frame2.elf.dir\Src\dac.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\dac.c -o CMakeFiles\RM_frame2.elf.dir\Src\dac.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Src/dma.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Src/dma.c.obj: ../Src/dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/dma.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\dma.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/dma.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\dma.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\dma.c
 
 CMakeFiles/RM_frame2.elf.dir/Src/dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Src/dma.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\dma.c > CMakeFiles\RM_frame2.elf.dir\Src\dma.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\dma.c > CMakeFiles\RM_frame2.elf.dir\Src\dma.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Src/dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Src/dma.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\dma.c -o CMakeFiles\RM_frame2.elf.dir\Src\dma.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\dma.c -o CMakeFiles\RM_frame2.elf.dir\Src\dma.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Src/gpio.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Src/gpio.c.obj: ../Src/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/gpio.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\gpio.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/gpio.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\gpio.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\gpio.c
 
 CMakeFiles/RM_frame2.elf.dir/Src/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Src/gpio.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\gpio.c > CMakeFiles\RM_frame2.elf.dir\Src\gpio.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\gpio.c > CMakeFiles\RM_frame2.elf.dir\Src\gpio.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Src/gpio.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\gpio.c -o CMakeFiles\RM_frame2.elf.dir\Src\gpio.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\gpio.c -o CMakeFiles\RM_frame2.elf.dir\Src\gpio.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Src/iwdg.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Src/iwdg.c.obj: ../Src/iwdg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/iwdg.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\iwdg.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\iwdg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/iwdg.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\iwdg.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\iwdg.c
 
 CMakeFiles/RM_frame2.elf.dir/Src/iwdg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Src/iwdg.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\iwdg.c > CMakeFiles\RM_frame2.elf.dir\Src\iwdg.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\iwdg.c > CMakeFiles\RM_frame2.elf.dir\Src\iwdg.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Src/iwdg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Src/iwdg.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\iwdg.c -o CMakeFiles\RM_frame2.elf.dir\Src\iwdg.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\iwdg.c -o CMakeFiles\RM_frame2.elf.dir\Src\iwdg.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Src/main.cpp.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Src/main.cpp.obj: ../Src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/RM_frame2.elf.dir/Src/main.cpp.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\main.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/RM_frame2.elf.dir/Src/main.cpp.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\main.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\main.cpp
 
 CMakeFiles/RM_frame2.elf.dir/Src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_frame2.elf.dir/Src/main.cpp.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\main.cpp > CMakeFiles\RM_frame2.elf.dir\Src\main.cpp.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\main.cpp > CMakeFiles\RM_frame2.elf.dir\Src\main.cpp.i
 
 CMakeFiles/RM_frame2.elf.dir/Src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_frame2.elf.dir/Src/main.cpp.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\main.cpp -o CMakeFiles\RM_frame2.elf.dir\Src\main.cpp.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\main.cpp -o CMakeFiles\RM_frame2.elf.dir\Src\main.cpp.s
 
 CMakeFiles/RM_frame2.elf.dir/Src/spi.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Src/spi.c.obj: ../Src/spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/spi.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\spi.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/spi.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\spi.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\spi.c
 
 CMakeFiles/RM_frame2.elf.dir/Src/spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Src/spi.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\spi.c > CMakeFiles\RM_frame2.elf.dir\Src\spi.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\spi.c > CMakeFiles\RM_frame2.elf.dir\Src\spi.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Src/spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Src/spi.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\spi.c -o CMakeFiles\RM_frame2.elf.dir\Src\spi.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\spi.c -o CMakeFiles\RM_frame2.elf.dir\Src\spi.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Src/stm32f4xx_hal_msp.c.obj: ../Src/stm32f4xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/stm32f4xx_hal_msp.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\stm32f4xx_hal_msp.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\stm32f4xx_hal_msp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/stm32f4xx_hal_msp.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\stm32f4xx_hal_msp.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/RM_frame2.elf.dir/Src/stm32f4xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Src/stm32f4xx_hal_msp.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\stm32f4xx_hal_msp.c > CMakeFiles\RM_frame2.elf.dir\Src\stm32f4xx_hal_msp.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\stm32f4xx_hal_msp.c > CMakeFiles\RM_frame2.elf.dir\Src\stm32f4xx_hal_msp.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Src/stm32f4xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Src/stm32f4xx_hal_msp.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\stm32f4xx_hal_msp.c -o CMakeFiles\RM_frame2.elf.dir\Src\stm32f4xx_hal_msp.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\stm32f4xx_hal_msp.c -o CMakeFiles\RM_frame2.elf.dir\Src\stm32f4xx_hal_msp.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Src/stm32f4xx_it.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Src/stm32f4xx_it.c.obj: ../Src/stm32f4xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/stm32f4xx_it.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\stm32f4xx_it.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\stm32f4xx_it.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/stm32f4xx_it.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\stm32f4xx_it.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\stm32f4xx_it.c
 
 CMakeFiles/RM_frame2.elf.dir/Src/stm32f4xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Src/stm32f4xx_it.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\stm32f4xx_it.c > CMakeFiles\RM_frame2.elf.dir\Src\stm32f4xx_it.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\stm32f4xx_it.c > CMakeFiles\RM_frame2.elf.dir\Src\stm32f4xx_it.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Src/stm32f4xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Src/stm32f4xx_it.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\stm32f4xx_it.c -o CMakeFiles\RM_frame2.elf.dir\Src\stm32f4xx_it.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\stm32f4xx_it.c -o CMakeFiles\RM_frame2.elf.dir\Src\stm32f4xx_it.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Src/syscalls.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Src/syscalls.c.obj: ../Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/syscalls.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\syscalls.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/syscalls.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\syscalls.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\syscalls.c
 
 CMakeFiles/RM_frame2.elf.dir/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Src/syscalls.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\syscalls.c > CMakeFiles\RM_frame2.elf.dir\Src\syscalls.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\syscalls.c > CMakeFiles\RM_frame2.elf.dir\Src\syscalls.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Src/syscalls.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\syscalls.c -o CMakeFiles\RM_frame2.elf.dir\Src\syscalls.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\syscalls.c -o CMakeFiles\RM_frame2.elf.dir\Src\syscalls.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Src/system_stm32f4xx.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Src/system_stm32f4xx.c.obj: ../Src/system_stm32f4xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/system_stm32f4xx.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\system_stm32f4xx.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\system_stm32f4xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/system_stm32f4xx.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\system_stm32f4xx.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\system_stm32f4xx.c
 
 CMakeFiles/RM_frame2.elf.dir/Src/system_stm32f4xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Src/system_stm32f4xx.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\system_stm32f4xx.c > CMakeFiles\RM_frame2.elf.dir\Src\system_stm32f4xx.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\system_stm32f4xx.c > CMakeFiles\RM_frame2.elf.dir\Src\system_stm32f4xx.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Src/system_stm32f4xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Src/system_stm32f4xx.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\system_stm32f4xx.c -o CMakeFiles\RM_frame2.elf.dir\Src\system_stm32f4xx.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\system_stm32f4xx.c -o CMakeFiles\RM_frame2.elf.dir\Src\system_stm32f4xx.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Src/tim.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Src/tim.c.obj: ../Src/tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/tim.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\tim.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/tim.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\tim.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\tim.c
 
 CMakeFiles/RM_frame2.elf.dir/Src/tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Src/tim.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\tim.c > CMakeFiles\RM_frame2.elf.dir\Src\tim.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\tim.c > CMakeFiles\RM_frame2.elf.dir\Src\tim.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Src/tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Src/tim.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\tim.c -o CMakeFiles\RM_frame2.elf.dir\Src\tim.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\tim.c -o CMakeFiles\RM_frame2.elf.dir\Src\tim.c.s
 
 CMakeFiles/RM_frame2.elf.dir/Src/usart.c.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/Src/usart.c.obj: ../Src/usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/usart.c.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\usart.c.obj   -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\usart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/RM_frame2.elf.dir/Src/usart.c.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\Src\usart.c.obj   -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\usart.c
 
 CMakeFiles/RM_frame2.elf.dir/Src/usart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_frame2.elf.dir/Src/usart.c.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\usart.c > CMakeFiles\RM_frame2.elf.dir\Src\usart.c.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\usart.c > CMakeFiles\RM_frame2.elf.dir\Src\usart.c.i
 
 CMakeFiles/RM_frame2.elf.dir/Src/usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_frame2.elf.dir/Src/usart.c.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\usart.c -o CMakeFiles\RM_frame2.elf.dir\Src\usart.c.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\Src\usart.c -o CMakeFiles\RM_frame2.elf.dir\Src\usart.c.s
 
 CMakeFiles/RM_frame2.elf.dir/UpperTasks/Src/CallbackAdministration.cpp.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/UpperTasks/Src/CallbackAdministration.cpp.obj: ../UpperTasks/Src/CallbackAdministration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/RM_frame2.elf.dir/UpperTasks/Src/CallbackAdministration.cpp.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\UpperTasks\Src\CallbackAdministration.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\UpperTasks\Src\CallbackAdministration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/RM_frame2.elf.dir/UpperTasks/Src/CallbackAdministration.cpp.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\UpperTasks\Src\CallbackAdministration.cpp.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\UpperTasks\Src\CallbackAdministration.cpp
 
 CMakeFiles/RM_frame2.elf.dir/UpperTasks/Src/CallbackAdministration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_frame2.elf.dir/UpperTasks/Src/CallbackAdministration.cpp.i"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\UpperTasks\Src\CallbackAdministration.cpp > CMakeFiles\RM_frame2.elf.dir\UpperTasks\Src\CallbackAdministration.cpp.i
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\UpperTasks\Src\CallbackAdministration.cpp > CMakeFiles\RM_frame2.elf.dir\UpperTasks\Src\CallbackAdministration.cpp.i
 
 CMakeFiles/RM_frame2.elf.dir/UpperTasks/Src/CallbackAdministration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_frame2.elf.dir/UpperTasks/Src/CallbackAdministration.cpp.s"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\UpperTasks\Src\CallbackAdministration.cpp -o CMakeFiles\RM_frame2.elf.dir\UpperTasks\Src\CallbackAdministration.cpp.s
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\UpperTasks\Src\CallbackAdministration.cpp -o CMakeFiles\RM_frame2.elf.dir\UpperTasks\Src\CallbackAdministration.cpp.s
 
 CMakeFiles/RM_frame2.elf.dir/startup/startup_stm32f427xx.s.obj: CMakeFiles/RM_frame2.elf.dir/flags.make
 CMakeFiles/RM_frame2.elf.dir/startup/startup_stm32f427xx.s.obj: ../startup/startup_stm32f427xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building ASM object CMakeFiles/RM_frame2.elf.dir/startup/startup_stm32f427xx.s.obj"
-	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\startup\startup_stm32f427xx.s.obj -c F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\startup\startup_stm32f427xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building ASM object CMakeFiles/RM_frame2.elf.dir/startup/startup_stm32f427xx.s.obj"
+	F:\rm_stm32\confi\gcc-arm-none-eabi-9-2020-q2-update-win32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\RM_frame2.elf.dir\startup\startup_stm32f427xx.s.obj -c F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\startup\startup_stm32f427xx.s
 
 # Object files for target RM_frame2.elf
 RM_frame2_elf_OBJECTS = \
@@ -957,12 +957,12 @@ RM_frame2.elf: CMakeFiles/RM_frame2.elf.dir/startup/startup_stm32f427xx.s.obj
 RM_frame2.elf: CMakeFiles/RM_frame2.elf.dir/build.make
 RM_frame2.elf: CMakeFiles/RM_frame2.elf.dir/objects1.rsp
 RM_frame2.elf: CMakeFiles/RM_frame2.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Linking CXX executable RM_frame2.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Linking CXX executable RM_frame2.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\RM_frame2.elf.dir\link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/RM_frame2.hex"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/RM_frame2.bin"
-	arm-none-eabi-objcopy -Oihex F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/RM_frame2.elf F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/RM_frame2.hex
-	arm-none-eabi-objcopy -Obinary F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/RM_frame2.elf F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/RM_frame2.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building F:/rm_stm32/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/RM_frame2.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building F:/rm_stm32/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/RM_frame2.bin"
+	arm-none-eabi-objcopy -Oihex F:/rm_stm32/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/RM_frame2.elf F:/rm_stm32/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/RM_frame2.hex
+	arm-none-eabi-objcopy -Obinary F:/rm_stm32/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/RM_frame2.elf F:/rm_stm32/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/RM_frame2.bin
 
 # Rule to build all files generated by this target.
 CMakeFiles/RM_frame2.elf.dir/build: RM_frame2.elf
@@ -974,6 +974,6 @@ CMakeFiles/RM_frame2.elf.dir/clean:
 .PHONY : CMakeFiles/RM_frame2.elf.dir/clean
 
 CMakeFiles/RM_frame2.elf.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles\RM_frame2.elf.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles\RM_frame2.elf.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/RM_frame2.elf.dir/depend
 

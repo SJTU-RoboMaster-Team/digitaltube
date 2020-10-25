@@ -47,10 +47,10 @@ RM = "D:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b
+CMAKE_SOURCE_DIR = F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw
+CMAKE_BINARY_DIR = F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b\cmake-build-debug-mingw\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

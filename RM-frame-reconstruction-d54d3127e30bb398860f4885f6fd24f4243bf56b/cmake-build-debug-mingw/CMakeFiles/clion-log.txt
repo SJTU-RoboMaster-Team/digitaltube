@@ -1,4 +1,4 @@
-"D:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" F:\rm_stm32\SCHOOL_FRAME_pure\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b
+"D:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" F:\rm_stm32\SCHOOL_FRAME\RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b
 -- The C compiler identification is GNU 9.3.1
 -- The CXX compiler identification is GNU 9.3.1
 -- The ASM compiler identification is GNU
@@ -13,4 +13,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw
+-- Build files have been written to: F:/rm_stm32/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw

@@ -18,21 +18,26 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 
     if (htim->Instance == htim6.Instance) {
         HAL_NVIC_DisableIRQ(TIM6_DAC_IRQn);
-        static uint32_t counter1=0,counter2=0;
+        HAL_GPIO_TogglePin(LED_GREEN_GPIO_Port,LED_GREEN_Pin);
+        static uint32_t counter1=0,counter2=0,index=0;
         counter1++;
         counter2++;
-        if(1000 == counter1){
+        if(500 == counter1){
             counter1=0;
+            DigitalTube::tube.AddScore();
+
 
 
 /*            DigitalTube::tube.ToggleAll();*/
 
-            DigitalTube::tube.AddScore();
+
+//            DigitalTube::tube.TransmitDataUsingDelay();
+
         }
 
-        if(10 == counter2){
+        if(1 == counter2){
             counter2=0;
-            HAL_GPIO_TogglePin(LED_GREEN_GPIO_Port,LED_GREEN_Pin);
+            DigitalTube::tube.TransmitData();
             /*static uint32_t testSerialData=0b0101010011000111;
 
             if ((testSerialData&uint32_t(1)) == uint32_t(0)){
@@ -64,7 +69,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 
 /*            DigitalTube::tube.TestSI();*/
 /*            DigitalTube::tube.TestPin();*/
-           DigitalTube::tube.TransmitData();
+
         }
         MainControlLoop();
         HAL_NVIC_EnableIRQ(TIM6_DAC_IRQn);

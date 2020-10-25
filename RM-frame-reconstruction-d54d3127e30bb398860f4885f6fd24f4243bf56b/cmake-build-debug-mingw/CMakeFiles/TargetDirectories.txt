@@ -1,3 +1,3 @@
-F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/CMakeFiles/RM_frame2.elf.dir
-F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
-F:/rm_stm32/SCHOOL_FRAME_pure/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
+F:/rm_stm32/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/CMakeFiles/RM_frame2.elf.dir
+F:/rm_stm32/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+F:/rm_stm32/SCHOOL_FRAME/RM-frame-reconstruction-d54d3127e30bb398860f4885f6fd24f4243bf56b/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
