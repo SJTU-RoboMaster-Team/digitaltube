@@ -24,7 +24,9 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
         counter2++;
         if(500 == counter1){
             counter1=0;
-            DigitalTube::tube.AddScore();
+            DigitalTube::tube.ShowNumber(888);
+            DigitalTube::tube.ToggleAll();
+            HAL_GPIO_TogglePin(LED_RED_GPIO_Port,LED_RED_Pin);
 
 
 
